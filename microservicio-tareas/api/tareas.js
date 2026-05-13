@@ -1,5 +1,5 @@
-import connectDB from "../lib/db.js";
-import Tarea from "../models/Tarea.js";
+import connectDB from "..src/lib/db.js";
+import Tarea from "..src/models/Tarea.js";
 
 export default async function handler(req, res) {
     try {
